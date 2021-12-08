@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Create your first Pod",
         "text": "step1.md"
       },
       {
@@ -37,7 +37,7 @@
     "uilayout": "editor-terminal"
   },
   "files": [
-    "deployment.yaml", "server.yaml"
+    "pod.yaml", "deployment.yaml", "server.yaml"
   ],
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"
