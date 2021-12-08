@@ -10,11 +10,11 @@
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Create your first Deployment",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Create your first Service",
         "text": "step3.md"
       },
       {
@@ -37,7 +37,7 @@
     "uilayout": "editor-terminal"
   },
   "files": [
-    "pod.yaml", "deployment.yaml", "server.yaml"
+    "manifest.yaml"
   ],
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"

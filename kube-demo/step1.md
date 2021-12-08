@@ -1,5 +1,5 @@
-Copy the following Pod definition to the editor in *pod.yaml* file.
-```yml
+Copy the following Pod definition to the editor in *manifest.yaml* file.
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -14,8 +14,8 @@ spec:
        - containerPort: 8080
 ```
 
-Create the pod with the following command: ``kubectl create -f pod.yaml``
+Create the pod with the following command: ``kubectl apply -f manifest.yaml``
 
-Check the status of the pod: ``kubectl get pod webapp1``
+Check the status of the pod: ``kubectl get pod hello-pod``
 
-Check the details of the pod: ``kubectl describe pod webapp1``
+Check the details of the pod: ``kubectl describe pod hello-pod``
