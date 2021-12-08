@@ -1,5 +1,5 @@
 Copy the following Pod definition to the editor in *pod.yaml* file.
-```yaml
+```yml
 apiVersion: v1
 kind: Pod
 metadata:
