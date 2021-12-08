@@ -14,6 +14,8 @@ spec:
        - containerPort: 8080
 ```
 
+Create the pod with the following command: ``kubectl apply -f pod.yaml``
+
 Check the status of the pod: ``kubectl get pod webapp1``
 
 Check the details of the pod: ``kubectl describe pod webapp1``
