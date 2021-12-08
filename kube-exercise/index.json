@@ -1,0 +1,41 @@
+{
+  "title": "Kubernetes rollout/rollback exercise",
+  "description": "Instructions for a simple rollout in kubernetes",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Create the Deployment of your application",
+        "text": "step1.md"
+      },
+      {
+        "title": "Rollout the Deployment to a new app version",
+        "text": "step2.md"
+      },
+      {
+        "title": "Rollback to the previous version",
+        "text": "step3.md"
+      },
+      {
+        "title": "Side quest (Optional)",
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "files": [
+    "manifest.yaml"
+  ],
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}
