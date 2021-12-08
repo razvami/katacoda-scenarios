@@ -36,7 +36,10 @@
   "environment": {
     "uilayout": "editor-terminal"
   },
+  "files": [
+    "deployment.yaml", "server.yaml"
+  ],
   "backend": {
-    "imageid": "kubernetes-cluster"
+    "imageid": "kubernetes-cluster-running:1.18"
   }
 }
