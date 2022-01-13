@@ -16,6 +16,14 @@
       {
         "title": "Create your first Service",
         "text": "step3.md"
+      },
+      {
+        "title": "Create a Helm Chart",
+        "text": "step4.md"
+      },
+      {
+        "title": "Update/Rollback a Chart",
+        "text": "step5.md"
       }
     ],
     "intro": {
