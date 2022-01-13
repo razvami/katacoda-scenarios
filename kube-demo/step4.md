@@ -1,10 +1,11 @@
-Create the Chart: ``helm create mychart ./mychart``
+Create the Chart: ``helm create mychart``
 
 Cleanup all the unnecessary files
-``rm -r mychart/charts``
-``rm -r mychart/templates/tests``
-``rm mychart/templates/*yaml``
-
+```
+rm -r mychart/charts \ 
+rm -r mychart/templates/tests \
+rm mychart/templates/*yaml
+```
 
 Copy the following Deployment definition to the editor in *manifest.yaml* file.
 ```yaml
